@@ -11,7 +11,7 @@ def analisar_comentario(texto):
 
     # Lógica de decisão
     if any(word in t for word in positivas):
-        return "😊 Positivo"
+        return "😊 show"
     elif any(word in t for word in negativas):
         return "😡 Negativo"
     else:
@@ -24,6 +24,7 @@ feedbacks = [
     "Estou tendo problemas com o carregamento dos XMLs no Google Drive.",
     "O atendimento da clínica foi normal, nada de especial.",
     "A automação do Bitrix24 salvou o dia da nossa equipe!"
+    "O código do Vitor ficou show!"
 ]
 
 print("--- 🤖 IA de Lógica Direta do Engenheiro Vitor ---")
