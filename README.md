@@ -18,4 +18,3 @@ Este repositório apresenta soluções técnicas focadas em **automação de flu
 
 _Desenvolvido por Vitor Fernandes — Estudante de Engenharia de Software focada em resultados práticos._
 
-## Estudos Radical - Dia 1: Dominando Git
