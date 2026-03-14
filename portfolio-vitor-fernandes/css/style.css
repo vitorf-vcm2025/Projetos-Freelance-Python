@@ -36,7 +36,9 @@ h3 {
   font-weight: 700;
   color: var(--primary-color);
   text-shadow: 0 0 10px var(--primary-color);
-  transition: transform 0.3s ease-out, text-shadow 0.3s ease-out; /* Adicionada transição */
+  transition:
+    transform 0.3s ease-out,
+    text-shadow 0.3s ease-out; /* Adicionada transição */
 }
 
 /* Seção Hero - A Primeira Impressão */
@@ -46,7 +48,8 @@ h3 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+  background:
+    linear-gradient(45deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
     url("https://www.transparenttextures.com/patterns/cubes.png");
   border-bottom: 2px solid var(--border-color);
 }
@@ -60,7 +63,9 @@ h3 {
   border: 3px solid var(--primary-color);
   box-shadow: 0 0 25px var(--primary-color);
   margin-bottom: 1.5rem;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .hero .subtitle {
@@ -96,6 +101,13 @@ h3 {
   align-items: center;
   gap: 2rem;
   margin-top: 2rem;
+}
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .tech-icon {
@@ -140,7 +152,9 @@ h3 {
   border-radius: 10px;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 
   /* A MÁGICA ACONTECE AQUI */
   display: flex;
@@ -164,7 +178,9 @@ h3 {
   border: 1px solid var(--primary-color);
   color: var(--primary-color);
   text-decoration: none;
-  transition: background-color 0.3s, color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s;
 }
 
 .btn-project:hover {
@@ -218,7 +234,9 @@ h3 {
 /* NOVOS EFEITOS DE HOVER PARA OS TÍTULOS */
 .hero h1:hover {
   transform: translateY(-5px);
-  text-shadow: 0 0 15px var(--primary-color), 0 0 25px var(--secondary-color);
+  text-shadow:
+    0 0 15px var(--primary-color),
+    0 0 25px var(--secondary-color);
 }
 
 .section h2:hover {
